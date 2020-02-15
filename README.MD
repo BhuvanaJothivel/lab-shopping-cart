@@ -1,31 +1,32 @@
-# ProGrad
+![Image description](https://i1.faceprep.in/ProGrad/face-logo-resized.png)
 
-## LAB | ProGrad Shopping Cart
-Phineas and Ferb are brothers they are known for the experiments they make, and they've got a treehouse where they spent their spare time, Inside the treehouse, there is a mini-refrigerator which they've made which consists of beverages. One Sunday Phineas and Ferb were playing with their pet Perry the platypus. After playing for a long time, they're tired. Phineas asked, Ferb can we have a drink? Ferb replied the refrigerator is empty.
+# ProGrad Lab | Shopping Cart
 
-They're tired, of taking a call to the departmental store as this kept happening frequently. Phineas says we should solve this problem. Ferb replies, yep. They have planned to build an application, specifically for ordering beverages. They need **YOU** to help them build this application. Go to the `src/app.js` file and complete all the unfinished code to propel both of these young champ's desire.
+Phineas and Ferb are brothers. They are known for the experiments they make, and they've got a treehouse where they spent their spare time. Inside the treehouse, there is a mini-refrigerator which they've made. It consists of beverages. One Sunday Phineas and Ferb were playing with their pet Perry the platypus. After playing for a long time, they got tired. Phineas asked, "Ferb can we have a drink?". Ferb replied the :refrigerator is empty".
 
-## What should you do?
+They're tired of taking a call to the departmental store as this kept happening frequently. Phineas says "we should solve this problem". Ferb replies, "yep". They have planned to build an application, specifically for ordering beverages. They need **YOU** to help them build this application. Go to the `src/app.js` file and complete all the unfinished code to propel both of these young champ's desire.
 
-- Fork this repo
-- Clone this repo
-- Practice JavaScript Oops -  _classes, objects, member variables, member functions,composition_
+## What should you do
+```
+Fork this repo
+Clone this repo
+Practice JavaScript Oops -  _classes, objects, member variables, member functions,composition_
+```
 
-## How do you submit?
+## How To Submit
+```
+Upon completion, run the following commands:
 
-- Upon completion, run the following commands:
+git add .
+git commit -m "ProGrad ID"
+git push origin master
 
-  ```
-  git add .
-  git commit -m "prograd ID"
-  git push origin master
-  ```
-
-- Create a pull request so your teaching mentors can check your work.
+And finally, create a pull request so your ProGrad Mentor (PM) can review your work.
+```
 
 ## Starter code
 
-The `src/app.js` contains an array of 10 items and another array containing all the 10 items prices. We are talking about the array of 10 _strings_ and _numbers_ each containing beverage names and its prices. Here is one example of how the data is displayed:
+The `src/app.js` contains an array of 10 items and another array containing the prices of all the 10 items. We are talking about the array of 10 _strings_ and _numbers_ each containing beverage names and their prices. Here is one example of how the data is displayed:
 
 ITEMS 
 ```javascript
@@ -40,13 +41,13 @@ PRICE
 ]
 ```
 
-### Tests
+## Tests
 
-Ohh yes! We have our beloved tests, and you already know how this works. Open the `SpecRunner.html` file on your browser and start coding to pass the test. Remember to focus on one test at a time and read carefully the instructions to understand what you have to do.
+Open the `SpecRunner.html` file on your browser and start coding to pass the test. Remember to focus on one test at a time and read carefully the instructions to understand what you have to do.
 
-## Trial 1: TAKE IT ! OR LEAVE IT !
+## Progression 1: TAKE IT OR LEAVE IT !
 
-Phineas and Ferb has collected a list of menu items and their prices based on  available menu items present around their location. Help them implement these menu items into the application.Create a class for `MenuItem` such that each item takes id,name and price as argument.
+Phineas and Ferb have collected a list of menu items and their prices based on the available menu items present around their location. Help them add these menu items into the application. Create a class for `MenuItem` such that each item takes id, name and price as argument.
 
 * image can be sequential i.e. "assets/product-"+(i+1)+".png"
 * It should _return an array of `MenuItem` objects_.
@@ -75,19 +76,19 @@ Phineas and Ferb has collected a list of menu items and their prices based on  a
     </div>
     ```
 
-## Trial 2: CHOOSE WISELY !
+## Progression 2: CHOOSE WISELY !
 
-Phineas and Fearb now wants to add those `MenuItems` into Menu. Create a class `Menu`, it should loop through passed constant items and price array and such that it contains `items` and `cart` properties.
+Phineas and Fearb now wants to add those `MenuItems` into Menu. Create a class `Menu`, it should loop through passed constant items and price array such that it contains `items` and `cart` properties.
 
 * `items` should be an array of `MenuItem`.
 * `cart` should hold the instance of Cart.
 * `displayCatalogue()` should _return an array of HTML elements_ each element should be accumulated from `MenuItem`.`getItem()` method.
 
-## Trial 3: MORE ITEMS ! MORE DSICOUNT !
+## Progression 3: MORE ITEMS ! MORE DSICOUNT !
 
-Add the logic to `addToCart()` method such that it should _return an updated cart list_ after adding a valid menu item to cart. If item already present, then update quantity and total of that item.
+Add the logic to `addToCart()` method such that it should _return an updated cart list_ after adding a valid menu item to cart. If the item is already present, then update quantity and total of that item.
 
-## Trial 4: FILL IT LIKE NEVER BEFORE !
+## Progression 4: FILL IT LIKE NEVER BEFORE !
  
 Create class for `Cart` such that it contains a list and total properties.
 
@@ -156,31 +157,31 @@ In class `Cart` it should have a `list` array member variable to store all the w
 
 * Add logic to `displayCart()` method such that it should _return an array of HTML elements_.
 
-## Trial 5: CHECK ITEM!
+## Progression 5: CHECK ITEM!
 
-Add logic to `checkAvailability()` method, it should _return a cart item object_ if present in the cart list. otherwise it should return `undefined`, use array `find` method.
+Add logic to `checkAvailability()` method, it should _return a cart item object_ if present in the cart list. Otherwise it should return `undefined`. Use array `find` method.
 
-## Trial 6: LIKE IT ! ADD MORE !
+## Progression 6: LIKE IT ! ADD MORE !
 
-In `handleIncrementClick()` method, increment the quantity of selected item in cart and _return an updated list_. 
+In `handleIncrementClick()` method, increment the quantity of selected items in cart and _return an updated list_. 
 
-## Trial 7 : DON'T LIKE IT!
+## Progression 7: DON'T LIKE IT!
 
 In `handleDecrementClick()` method, decrement the quantity of selected item in cart and _return an updated list_.
 
-## Trial 8: NOT NEEDED !
+## Progression 8: NOT NEEDED !
 
 In `handleRemoveClick()` method, remove the item from cart and _return the updated list_.
 * Fill your logic in `refreshCart()` method, such that it refreshes the cart fragment that is being displayed to user whenever an item is removed from  cart. This method should _return an updated cartContainer_ fragment.
-* Add your logic in `change()` method, such that whenever an increment or decrement in cart happens, it should be reflected in the display.This method _return updated quantity and total HTML elements_.
+* Add your logic in `change()` method, such that whenever an increment or decrement happens in the cart, it should be reflected in the display. This method _return updated quantity and total HTML elements_.
 
-## Trial 9: PAY IT ! TAKE IT !
+## Progression 9: PAY IT ! TAKE IT !
 
-In `calculateTotal()` method, add your logic such that it should _return the total_ amount for all the items that prsent in the cart.
+In `calculateTotal()` method, add your logic such that it should _return the total_ amount for all the items that are present in the cart.
 
-## Trial 10: HOLD IT!
+## Progression 10: HOLD IT!
 
-In class `CartItem` whenever a new item is selected for adding to cart list an instance of `CartItem` is created such that it contains properties like `image`,`product`,`price`,`quantity` and `total` then that instance is added to cart list.
+In class `CartItem` whenever a new item is selected for adding to the cart list an instance of `CartItem` is created such that it contains properties like `image`,`product`,`price`,`quantity` and `total`. Then. that instance is added to cart list.
 
 * `incrementItem()` method should increment the quantity and price of the selected item and then _return updated quantity and price_ of that item.
 * `decrementItem()` method should decrement the quantity and price of the selected item and then _return updated quantity and price_ of that item.
@@ -188,16 +189,20 @@ In class `CartItem` whenever a new item is selected for adding to cart list an i
 
 ## Challenge 1: SEARCH AND FIND!
 
-Phineas and Ferb wants to search for items based on name. Help them by adding a search feature to application. so that they can find their favourite items.Add your logic to `searchItems()` method such that it should _return an array of item names_ as a search result.The user search keyword is provided as a parameter.
+Phineas and Ferb wants to search for items based on name. Help them by adding a search feature to the application so that they can find their favourite items quickly. Add your logic to `searchItems()` method such that it should _return an array of item names_ as a search result. The user search keyword is provided as a parameter.
 
 ## Challenge 2: MINING THE DATA!
 
-Phineas and Ferb now wants to sort the search result in alphabetical order.Add your logic to `searchItems()` method such that it should _return the array of item names_ in sorted order. Hint use chaining methods.
+Phineas and Ferb now wants to sort the search result in alphabetical order. Add your logic to `searchItems()` method such that it should _return the array of item names_ in sorted order. Hint use chaining methods.
 
-### Expected Output
+## Expected Output
+
+Here are some screenshots of the application that will help you visualise the application better.
 
 ![Shopping Cart](docs/shopping-cart-1.png)
 ![Shopping Cart](docs/shopping-cart-2.png)
 ![Shopping Cart](docs/shopping-cart-3.png)
 ![Shopping Cart](docs/shopping-cart-4.png)
 ![Shopping Cart](docs/shopping-cart-5.png)
+
+Happy Coding ProGrad ❤️
