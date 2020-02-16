@@ -260,3 +260,12 @@
 .view-menu-btn {
     margin: 5% 0% 10% 0%;
 }
+
+.footers{
+	position: relative;
+	top: 750px;
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+	font-style: normal;
+}
